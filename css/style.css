@@ -3,6 +3,46 @@ body{
 	padding: 0;
 	outline: 0;
 }
+
+
+
+
+.container{
+	width: 90%;
+	height: 50px;
+	background: gold;
+
+}
+.header-left{
+	width: 20%;
+	height: auto;
+	background-color: greenyellow;
+	margin-left: 10px;
+	float: left;
+
+}
+.header-right{
+	width: 70%;
+	height: auto;
+	background-color: hotpink;
+	margin-left: 30px;
+	overflow: hidden;
+	
+}
+ul li{
+	display: inline;
+	margin-right: 20px;
+	margin-left: 100px;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	background-color: maroon;
+	transition: 0.2sec;
+	translate: -50%;
+}
 section{
 	display: flex;
 	margin: 30px 50px;
