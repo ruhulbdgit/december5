@@ -1,0 +1,65 @@
+body{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+section{
+	display: flex;
+	margin: 30px 50px;
+}
+img{
+	width: 100%;
+	transition: 0.3s;
+}
+.box{
+	width: 330px;
+	height: 250px;
+	box-shadow: -3px 10px 55px -4px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 25px;
+}
+.box:hover img{
+	transform: scale(1.3);
+}
+.box-2:hover{
+	opacity: 1;
+}
+.box-2{
+	position: absolute;
+	top: 10px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: hsl(187deg 100% 50% / 12%);
+	color: white;
+	opacity: 0;
+	transition: 0.5s;
+
+}
+.box-2 h2{
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+.box-2 h3{
+	text-align: center;
+	color: red;
+	font-size: 25px;
+}
+.box-2 p{
+	text-align: center;
+	padding: 0 10px;
+	font-size: 18px;
+}
+.box-1{
+	display: flex;
+}
+span{
+	position: absolute;
+	background: crimson;
+	padding: 7px;
+	font-size: 18px;
+	font-weight: 600;
+}
